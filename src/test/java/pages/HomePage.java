@@ -10,4 +10,8 @@ public class HomePage {
     public String homePageUrl () {
         return Locators.homePageUrl;
     }
+
+    public String getCurrentUrl () {
+        return driver.getCurrentUrl();
+    }
 }
